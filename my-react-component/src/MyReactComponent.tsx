@@ -1,9 +1,7 @@
 import { useState } from 'react';
 
 export default function MyReactComponent(): JSX.Element {
-  const [someValue, setSomeValue] = useState('');
-
-  setSomeValue('Some value');
+  const [someValue] = useState('World');
 
   return (
     <div>Hello {someValue}</div>
