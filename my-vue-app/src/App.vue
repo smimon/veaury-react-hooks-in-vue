@@ -8,7 +8,7 @@
 <script>
   import { applyPureReactInVue } from 'veaury';
 
-  import MyReactComponent from 'my-react-component';
+  import MyReactComponent from 'my-react-component-rollup';
 
   export default {
     components: {

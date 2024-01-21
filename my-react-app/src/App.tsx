@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import MyReactComponent from 'my-react-component';
+import MyReactComponent from 'my-react-component-rollup';
 
 function App() {
   const [count, setCount] = useState(0)
